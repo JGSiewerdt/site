@@ -8,12 +8,6 @@ export default function PraiaPage() {
     <main>
       <Navbar/>
       
-      <Image 
-        src="/furb.jpg" 
-        alt="Campus da FURB" 
-        width={600} 
-        height={400} 
-      />
 
       <h1>As Praias de Florianópolis</h1>
 
@@ -56,6 +50,14 @@ export default function PraiaPage() {
       Para quem gosta de aventura, a Lagoinha do Leste é um destino imperdível.<br/>
       O acesso é feito por trilhas e a recompensa é uma das paisagens mais bonitas de Florianópolis.
       </p>
+
+      <Image 
+        src="/praia.jpg" 
+        alt="praia de floripa"
+        width={600} 
+        height={400} 
+      />
+
     </main>
   );
 }

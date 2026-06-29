@@ -28,8 +28,8 @@ export default function HomePage() {
       </p>
 
       <Image 
-        src="/blumenau.jpg" 
-        alt="Guia Universitário de Blumenau" 
+        src="/floripa.jpg" 
+        alt="floripa" 
         width={600} 
         height={400} 
         style={{ marginBottom: '1.5rem', borderRadius: '8px' }}

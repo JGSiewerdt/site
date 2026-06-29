@@ -2,25 +2,27 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '../components/navbar';
 
-export default function IfcPage() {
+export default function GastroPage() {
   return (
     <main>
       <Navbar/>
       
       {}
-      <Image 
-        src="/ifc.jpg" 
-        alt="Campus do IFC Blumenau" 
-        width={600} 
-        height={400} 
-        style={{ marginBottom: '1.5rem', borderRadius: '8px' }}
-      />
+
 
       <h1>Sabores de Florianópolis</h1>
 
       <p>
       A gastronomia de Florianópolis é fortemente influenciada pela cultura açoriana e pela abundância de frutos do mar encontrados na região.
       </p>
+
+            <Image 
+        src="/camarao.jpg" 
+        alt="Sequencia de camarao"
+        width={600} 
+        height={400} 
+        style={{ marginBottom: '1.5rem', borderRadius: '8px' }}
+      />
 
       <h2>Sequência de Camarão</h2>
 
